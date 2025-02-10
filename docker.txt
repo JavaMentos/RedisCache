@@ -1,0 +1,2 @@
+docker run -d --name my-redis -p 6379:6379 redis:alpine
+docker run -d --name postgresRedis -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=authors -p 5470:5432 postgres:16.4
